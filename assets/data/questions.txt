@@ -1,0 +1,13 @@
+Q:is this person male?
+  Q:is this person a student?
+    Q:KILL joey
+      A:AJ Toey
+      A:New
+    Q:Hum
+      A:Frame
+      A:kuy
+  Q:is this person love eating rock?
+    Q:Tokyo
+      A:Bingo
+      A:HumBingo
+    A:Ham
