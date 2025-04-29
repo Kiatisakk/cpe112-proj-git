@@ -54,7 +54,7 @@ public abstract class GuessGame {
             correctAnswer();
         } else {
             wrongAnswer(current);
-            saveTreeToFile(root, "questions.txt");
+            saveTreeToFile(root, "assets/data/questions.txt");
         }
     }
 
