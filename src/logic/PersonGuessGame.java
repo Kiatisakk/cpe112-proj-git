@@ -1,6 +1,7 @@
+package logic;
 import java.io.IOException;
 
-import data.model.Node;
+import data.Node;
 public class PersonGuessGame extends GuessGame {
 
     public PersonGuessGame(String filename) throws IOException {

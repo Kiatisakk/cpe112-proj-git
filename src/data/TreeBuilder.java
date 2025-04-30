@@ -1,10 +1,9 @@
-package data.model;
+package data;
 import java.io.*;
 import java.util.*;
 
 public class TreeBuilder {
     private static final String QUESTION_PREFIX = "Q:";
-    private static final String ANSWER_PREFIX = "A:";
     private static int index = 0;
 
     private static class Line {

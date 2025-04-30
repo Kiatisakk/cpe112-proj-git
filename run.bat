@@ -1,16 +1,16 @@
 @echo off
-REM เปลี่ยนไปยัง root ของโปรเจกต์
+REM Go to the root of the project
 cd /d %~dp0
 
-REM สร้างโฟลเดอร์สำหรับไฟล์ .class ถ้ายังไม่มี
+REM Create the bin directory if it doesn't exist
 if not exist bin (
     mkdir bin
 )
 
-REM คอมไพล์ .java ทั้งหมดใน src/
-javac -d bin src\*.java
+REM Compile all Java files inside src and its subfolders
+javac -d bin -sourcepath src src\Main.java src\data\*.java src\logic\*.java src\ui\*.java
 
-REM รันโปรแกรม (เปลี่ยน Main เป็นชื่อคลาสหลักถ้าจำเป็น)
+REM Run the main class
 java -cp bin Main
 
 pause

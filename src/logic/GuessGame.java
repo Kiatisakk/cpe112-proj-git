@@ -1,13 +1,17 @@
+package logic;
 import java.io.*;
 import java.util.*;
 
-import data.model.Node;
-import data.model.TreeBuilder;
+import data.Node;
+import data.TreeBuilder;
 
 public abstract class GuessGame {
     protected Node root;
+    public Node getRoot() {
+        return root;
+    }
+    
     protected Scanner sc = new Scanner(System.in);
-
     public GuessGame(String filename) throws IOException {
         root = TreeBuilder.buildTreeFromFile(filename);
     }
@@ -46,7 +50,7 @@ public abstract class GuessGame {
         }
     }
 
-    void saveTreeToFile(Node node, String filename) throws IOException {
+    public void saveTreeToFile(Node node, String filename) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
         writeNode(node, writer, 0);
         writer.close();

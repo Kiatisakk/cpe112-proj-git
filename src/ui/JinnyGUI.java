@@ -1,6 +1,8 @@
+package ui;
 import javax.swing.*;
 
-import data.model.Node;
+import data.Node;
+import logic.PersonGuessGame;
 
 import java.awt.*;
 import java.io.IOException;
@@ -124,7 +126,8 @@ public class JinnyGUI {
 
         try {
             game = new PersonGuessGame("assets/data/questions.txt");
-            currentNode = game.root;
+            currentNode = game.getRoot();
+;
             pathStack.clear();
             showCurrentQuestion();
         } catch (IOException ex) {
@@ -198,7 +201,7 @@ public class JinnyGUI {
                     currentNode.right = oldGuess;
                 }
 
-                game.saveTreeToFile(game.root, "assets/data/questions.txt");
+                game.saveTreeToFile(game.getRoot(), "assets/data/questions.txt");
                 JOptionPane.showMessageDialog(frame, "Thanks! I learned something new!");
                 restartGame();
             } catch (IOException ex) {
@@ -229,7 +232,7 @@ public class JinnyGUI {
     }
 
     private void restartGame() {
-        currentNode = game.root;
+        currentNode = game.getRoot();
         pathStack.clear();
         showCurrentQuestion();
     }
