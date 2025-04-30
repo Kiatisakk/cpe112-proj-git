@@ -1,4 +1,6 @@
 import java.io.IOException;
+
+import data.model.Node;
 public class PersonGuessGame extends GuessGame {
 
     public PersonGuessGame(String filename) throws IOException {

@@ -1,3 +1,4 @@
+package data.model;
 public class Node {
     public String questionorname;
     public Node left; // No branch

@@ -1,4 +1,7 @@
 import javax.swing.*;
+
+import data.model.Node;
+
 import java.awt.*;
 import java.io.IOException;
 import java.util.Stack;

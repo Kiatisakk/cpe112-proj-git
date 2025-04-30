@@ -1,6 +1,9 @@
 import java.io.*;
 import java.util.*;
 
+import data.model.Node;
+import data.model.TreeBuilder;
+
 public abstract class GuessGame {
     protected Node root;
     protected Scanner sc = new Scanner(System.in);
