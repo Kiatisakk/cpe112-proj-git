@@ -1,0 +1,285 @@
+digraph {
+	rankdir=TB
+	nodesep=0.5
+	ranksep=0.75
+	0 [label=Root]
+	1 [label="Q:Is this person male?
+"]
+	0 -> 1
+	2 [label="Q:Is this person piercing their ear?
+"]
+	1 -> 2
+	3 [label="Q:Is this person currently Dyed their hair?
+"]
+	2 -> 3
+	4 [label="Q:Is this person from northeast (Isaan)?
+"]
+	3 -> 4
+	5 [label="Q:Is this person from Bangkok?
+"]
+	4 -> 5
+	6 [label="A:Baifern 1006
+"]
+	5 -> 6
+	7 [label="A:Oum 1075
+"]
+	5 -> 7
+	8 [label="A:Ping 1087
+"]
+	4 -> 8
+	9 [label="Q:Was this person studied at PCSHS?
+"]
+	3 -> 9
+	10 [label="Q:Is this person in an Math Honor class?
+"]
+	9 -> 10
+	11 [label="A:Pink 1030
+"]
+	10 -> 11
+	12 [label="A:Fahsai 1064
+"]
+	10 -> 12
+	13 [label="A:Pueng 1058
+"]
+	9 -> 13
+	14 [label="Q:Has this person take course LNG120?
+"]
+	2 -> 14
+	15 [label="Q:Is this person taller than 165 cm?
+"]
+	14 -> 15
+	16 [label="Q:Is this person usually wore watch?
+"]
+	15 -> 16
+	17 [label="A:Posh 1032
+"]
+	16 -> 17
+	18 [label="A:T-Vera 1043
+"]
+	16 -> 18
+	19 [label="A:Ani 1036
+"]
+	15 -> 19
+	20 [label="Q:Is this person left-handed?
+"]
+	14 -> 20
+	21 [label="A:Yok 1038
+"]
+	20 -> 21
+	22 [label="A:Fuse 1078
+"]
+	20 -> 22
+	23 [label="Q:Is this person from middle region?
+"]
+	1 -> 23
+	24 [label="Q:Is this person wear glasses?
+"]
+	23 -> 24
+	25 [label="Q:Was this person studied at PCSHS?
+"]
+	24 -> 25
+	26 [label="Q:Was this person studied at SCIUS?
+"]
+	25 -> 26
+	27 [label="Q:Is this person from Kanchanaburi province?
+"]
+	26 -> 27
+	28 [label="A:Auto 1070
+"]
+	27 -> 28
+	29 [label="A:Sand 1059
+"]
+	27 -> 29
+	30 [label="A:Phet 1066
+"]
+	26 -> 30
+	31 [label="Q:Is this person from south?
+"]
+	25 -> 31
+	32 [label="A:Earth 1060
+"]
+	31 -> 32
+	33 [label="Q:Is this person right-handed?
+"]
+	31 -> 33
+	34 [label="A:Khawpun 1053
+"]
+	33 -> 34
+	35 [label="A:Iear 1083
+"]
+	33 -> 35
+	36 [label="Q:Is this person go to LorDor on their 1st year university?
+"]
+	24 -> 36
+	37 [label="Q:Is this pesron taller than 170 cm?
+"]
+	36 -> 37
+	38 [label="Q:Is this person dyed their hair?
+"]
+	37 -> 38
+	39 [label="Q:Was this person got the Best Performance score as the first rank in CPE101?
+"]
+	38 -> 39
+	40 [label="A:Opal 1024
+"]
+	39 -> 40
+	41 [label="A:Putter 1015
+"]
+	39 -> 41
+	42 [label="A:Nam 1026
+"]
+	38 -> 42
+	43 [label="Q:Is this person from south?
+"]
+	37 -> 43
+	44 [label="Q:Has this person ever won BangMod Hackathon from KMUTT?
+"]
+	43 -> 44
+	45 [label="Q:Was this person studied at PCSHS?
+"]
+	44 -> 45
+	46 [label="A:Thanabun 1021
+"]
+	45 -> 46
+	47 [label="A:Beam 1045
+"]
+	45 -> 47
+	48 [label="A:Dragon 1040
+"]
+	44 -> 48
+	49 [label="Q:Is this person left-handed?
+"]
+	43 -> 49
+	50 [label="A:In 1011
+"]
+	49 -> 50
+	51 [label="A:Turbo 1082
+"]
+	49 -> 51
+	52 [label="Q:Is this person from northeast (Isaan)?
+"]
+	36 -> 52
+	53 [label="Q:Is this person from south?
+"]
+	52 -> 53
+	54 [label="A:Porpiang 1003
+"]
+	53 -> 54
+	55 [label="A:Gunt 1056
+"]
+	53 -> 55
+	56 [label="Q:Is this person a descendant of Ya Mo?
+"]
+	52 -> 56
+	57 [label="A:Soft 1079
+"]
+	56 -> 57
+	58 [label="A:Ohmmy 1018
+"]
+	56 -> 58
+	59 [label="Q:Is this person wear glasses?
+"]
+	23 -> 59
+	60 [label="Q:Has this pesron take course LNG120?
+"]
+	59 -> 60
+	61 [label="Q:Is this person is in section class B?
+"]
+	60 -> 61
+	62 [label="Q:Is this person live in a dorm?
+"]
+	61 -> 62
+	63 [label="A:Fin 1012
+"]
+	62 -> 63
+	64 [label="Q:Was this person studied at SCIUS?
+"]
+	62 -> 64
+	65 [label="Q: Is this person in an Math Honor class?
+"]
+	64 -> 65
+	66 [label="A:Fame 1005
+"]
+	65 -> 66
+	67 [label="A:Mac 1039
+"]
+	65 -> 67
+	68 [label="A:T-Major 1019
+"]
+	64 -> 68
+	69 [label="Q:Is this person drive their car to the university?
+"]
+	61 -> 69
+	70 [label="A:Win 1051
+"]
+	69 -> 70
+	71 [label="A:Max 1067
+"]
+	69 -> 71
+	72 [label="Q:Is this person go to LorDor on their 1st year university?
+"]
+	60 -> 72
+	73 [label="A:Prince 1089
+"]
+	72 -> 73
+	74 [label="Q:Is this person live in a dorm?
+"]
+	72 -> 74
+	75 [label="A:V 1057
+"]
+	74 -> 75
+	76 [label="A:Ball 1050
+"]
+	74 -> 76
+	77 [label="Q:Is this person from Bangkok?
+"]
+	59 -> 77
+	78 [label="Q:Is this pesron taller than 170 cm?
+"]
+	77 -> 78
+	79 [label="Q:Is this person do Comcamp36?
+"]
+	78 -> 79
+	80 [label="A:Data 1068
+"]
+	79 -> 80
+	81 [label="A:Earth 1069
+"]
+	79 -> 81
+	82 [label="Q:Is this person do Comcamp36?
+"]
+	78 -> 82
+	83 [label="A:Ham 1088
+"]
+	82 -> 83
+	84 [label="Q:Is this person piercing their ear?
+"]
+	82 -> 84
+	85 [label="A:Japan 1063
+"]
+	84 -> 85
+	86 [label="A:PP 1049
+"]
+	84 -> 86
+	87 [label="Q:Is this person drive their car to the university?
+"]
+	77 -> 87
+	88 [label="Q:Is this person live in a dorm?
+"]
+	87 -> 88
+	89 [label="A:Bingo 1086
+"]
+	88 -> 89
+	90 [label="Q:Is this person has the most gpa term 1 in regular program?
+"]
+	88 -> 90
+	91 [label="A:Tae 1008
+"]
+	90 -> 91
+	92 [label="A:Peem 1041
+"]
+	90 -> 92
+	93 [label="A:Ping-ping 1035
+"]
+	87 -> 93
+}

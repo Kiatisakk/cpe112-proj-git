@@ -1,24 +1,25 @@
 Q:Is this person male?
   Q:Is this person piercing their ear?
-    Q:Is this person piercing their ear?
-      Q:Is this person currently Dyed their hair?
-        Q:Is this person from northeast (Isaan)?
-          Q:Is this person from Bangkok?
-            A:Baifern 1006
-            A:Oum 1075
-          A:Ping 1087
-        Q:Was this person studied at PCSHS?
+    Q:Is this person currently Dyed their hair?
+      Q:Is this person from northeast (Isaan)?
+        Q:Is this person from Bangkok?
+          A:Baifern 1006
+          A:Oum 1075
+        A:Ping 1087
+      Q:Was this person studied at PCSHS?
+        Q:Is this person in an Math Honor class?
           A:Pink 1030
-          A:Pueng 1058
-      Q:Has this person take course LNG120?
-        Q:Is this person taller than 165 cm?
-          Q:Is this person usually wore watch?
-            A:Posh 1032
-            A:T-Vera 1043
-          A:Ani 1036
-        Q:Is this person left-handed?
-          A:Yok 1038
-          A:Fuse 1078
+          A:Fahsai 1064
+        A:Pueng 1058
+    Q:Has this person take course LNG120?
+      Q:Is this person taller than 165 cm?
+        Q:Is this person usually wore watch?
+          A:Posh 1032
+          A:T-Vera 1043
+        A:Ani 1036
+      Q:Is this person left-handed?
+        A:Yok 1038
+        A:Fuse 1078
   Q:Is this person from middle region?
     Q:Is this person wear glasses?
       Q:Was this person studied at PCSHS?
@@ -41,7 +42,9 @@ Q:Is this person male?
             A:Nam 1026
           Q:Is this person from south?
             Q:Has this person ever won BangMod Hackathon from KMUTT?
-              A:Thanabun 1021
+              Q:Was this person studied at PCSHS?
+                A:Thanabun 1021
+                A:Beam 1045
               A:Dragon 1040
             Q:Is this person left-handed?
               A:In 1011
@@ -84,5 +87,7 @@ Q:Is this person male?
         Q:Is this person drive their car to the university?
           Q:Is this person live in a dorm?
             A:Bingo 1086
-            A:Tae 1008
+            Q:Is this person has the most gpa term 1 in regular program?
+              A:Tae 1008
+              A:Peem 1041
           A:Ping-ping 1035
