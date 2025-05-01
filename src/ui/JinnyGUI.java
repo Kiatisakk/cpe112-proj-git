@@ -103,7 +103,7 @@ public class JinnyGUI {
         layeredPane.add(body2Label, Integer.valueOf(2));
         setupBox();
 
-        speechBubble = new JLabel("<html><div style='text-align: center;'>อ้าย!<br>คิดถึงใครในหัวอยู่ล่ะ?<br>เดี๋ยวข้าทายให้ดู!</div></html>");
+        speechBubble = new JLabel("<html><div style='text-align: center;'>Ay! Ay!<br>Who do you think of?<br>I will guess it!</div></html>");
         speechBubble.setFont(new Font("Georgia", Font.BOLD, 35));
         speechBubble.setForeground(Color.WHITE);
         speechBubble.setBounds(420, 50, 400, 200);

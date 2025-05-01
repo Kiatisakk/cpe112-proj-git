@@ -59,7 +59,9 @@ Q:Is this person male?
           Q:Is this person live in a dorm?
             A:Fin 1012
             Q:Was this person studied at SCIUS?
-              A:Fame 1005
+              Q: Is this person in an Math Honor class?
+                A:Fame 1005
+                A:Mac 1039
               A:T-Major 1019
           Q:Is this person drive their car to the university?
             A:Win 1051
