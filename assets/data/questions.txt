@@ -1,13 +1,47 @@
 Q:is this person male?
-  Q:is this person a student?
-    Q:KILL joey
-      A:AJ Toey
-      A:New
-    Q:Hum
-      A:Frame
-      A:kuy
-  Q:is this person love eating rock?
-    Q:Tokyo
-      A:Bingo
-      A:HumBingo
+  Q:Is this person piercing their ear?
+    Q:Is this perosn currently Dyed their hair?
+      Q:Is this person from the North East?
+        Q:Is this pesron from Bangkok?
+          A:Baifern
+          A:Aum
+        A:Pink(87)
+      Q:Was this pesron study at PCSHS(JorPor)?
+        A:Pink(30)
+        A:Pueng
+    Q:Has this person take course LNG120?
+      Q:Is this person taller than 165 cm?
+        Q:Is this person usually wear watch?
+          A:Posh
+          A:T(43)
+        A:Anii
+      Q:Is this person left-handed?
+        A:Yok
+        A:Fuse
+  Q:Is this person from the Central?
+    Q:Is this person usually wear glasses
+      Q:Was this pesron study at PCSHS(JorPor)?
+        Q:Was this person studied at SCIUS(WorMorWor)?
+          A:Sand
+          A:Petch
+        Q:Is this pesron from the South?
+          A:V
+          Q:Is this person right handed?
+            A:Pun
+            A:Ia
+      Q:Was this person go to Territorial Defense(LorDor) on the first year of University?
+        Q:is this person taller than 170 cm?
+          Q:Is this person currently dyed their hair?
+            Q:Is this pesron using Mac Book?
+              A:Pim
+              A:Opor
+            A:Nam
+          Q:Is this pesron from the South?
+            Q:Has this person ever won a Hackathon from KMUTT?
+              A:T(21)
+              A:Dragon
+            Q:Is this person left handed?
+              A:Int
+              A:Turbo
+        A:Ohmmy
     A:Ham
