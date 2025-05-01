@@ -1,13 +1,86 @@
-Q:is this person male?
-  Q:is this person a student?
-    Q:KILL joey
-      A:AJ Toey
-      A:New
-    Q:Hum
-      A:Frame
-      A:kuy
-  Q:is this person love eating rock?
-    Q:Tokyo
-      A:Bingo
-      A:HumBingo
-    A:Ham
+Q:Is this person male?
+  Q:Is this person piercing their ear?
+    Q:Is this person piercing their ear?
+      Q:Is this person currently Dyed their hair?
+        Q:Is this person from northeast (Isaan)?
+          Q:Is this person from Bangkok?
+            A:Baifern 1006
+            A:Oum 1075
+          A:Ping 1087
+        Q:Was this person studied at PCSHS?
+          A:Pink 1030
+          A:Pueng 1058
+      Q:Has this person take course LNG120?
+        Q:Is this person taller than 165 cm?
+          Q:Is this person usually wore watch?
+            A:Posh 1032
+            A:T-Vera 1043
+          A:Ani 1036
+        Q:Is this person left-handed?
+          A:Yok 1038
+          A:Fuse 1078
+  Q:Is this person from middle region?
+    Q:Is this person wear glasses?
+      Q:Was this person studied at PCSHS?
+        Q:Was this person studied at SCIUS?
+          Q:Is this person from Kanchanaburi province?
+            A:Auto 1070
+            A:Sand 1059
+          A:Phet 1066
+        Q:Is this person from south?
+          A:Earth 1060
+          Q:Is this person right-handed?
+            A:Khawpun 1053
+            A:Iear 1083
+      Q:Is this person go to LorDor on their 1st year university?
+        Q:Is this pesron taller than 170 cm?
+          Q:Is this person dyed their hair?
+            Q:Was this person got the Best Performance score as the first rank in CPE101?
+              A:Opal 1024
+              A:Putter 1015
+            A:Nam 1026
+          Q:Is this person from south?
+            Q:Has this person ever won BangMod Hackathon from KMUTT?
+              A:Thanabun 1021
+              A:Dragon 1040
+            Q:Is this person left-handed?
+              A:In 1011
+              A:Turbo 1082
+        Q:Is this person from northeast (Isaan)?
+          Q:Is this person from south?
+            A:Porpiang 1003
+            A:Gunt 1056
+          Q:Is this person a descendant of Ya Mo?
+            A:Soft 1079
+            A:Ohmmy 1018
+    Q:Is this person wear glasses?
+      Q:Has this pesron take course LNG120?
+        Q:Is this person is in section class B?
+          Q:Is this person live in a dorm?
+            A:Fin 1012
+            Q:Was this person studied at SCIUS?
+              A:Fame 1005
+              A:T-Major 1019
+          Q:Is this person drive their car to the university?
+            A:Win 1051
+            A:Max 1067
+        Q:Is this person go to LorDor on their 1st year university?
+          A:Prince 1089
+          Q:Is this person live in a dorm?
+            A:V 1057
+            A:Ball 1050
+      Q:Is this person from Bangkok?
+        Q:Is this pesron taller than 170 cm?
+          Q:Is this person do Comcamp36?
+            A:Data 1068
+            A:Earth 1069
+          Q:Is this person do Comcamp36?
+            A:Ham 1088
+            Q:Is this person piercing their ear?
+              A:Japan 1063
+              A:PP 1049
+        Q:Is this person drive their car to the university?
+          Q:Is this person live in a dorm?
+            A:Bingo 1086
+            A:Tae 1008
+          A:Ping-ping 1035
