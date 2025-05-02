@@ -28,8 +28,9 @@ public class JinnyGUI {
         setupLogo();
         setupBody();
         setupPlayButton();
-        setupMusic();
         setupLayeredPane();
+        setupMusic();
+        setupMuteButton();
         frame.setVisible(true);
     }
 
@@ -38,6 +39,32 @@ public class JinnyGUI {
         frame.setSize(1000, 600);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
+    }
+    
+    private void setupMuteButton() {
+        ImageIcon muteIcon = new ImageIcon("assets/images/mute.png");
+        Image muteImg = muteIcon.getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH);
+        ImageIcon unmuteIcon = new ImageIcon("assets/images/unmute.png");
+        Image unmuteImg = unmuteIcon.getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH);
+
+        JButton muteButton = new JButton(new ImageIcon(unmuteImg));
+        muteButton.setBounds(20, 20, 40, 40);
+        muteButton.setFocusPainted(false);
+        muteButton.setContentAreaFilled(false);
+        muteButton.setBorderPainted(false);
+        muteButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+
+        muteButton.addActionListener(e -> {
+            if (musicPlayer.isPlaying()) {
+                musicPlayer.stopMusic();
+                muteButton.setIcon(new ImageIcon(muteImg));
+            } else {
+                musicPlayer.playMusic("assets/audio/megh-raag.wav");
+                muteButton.setIcon(new ImageIcon(unmuteImg));
+            }
+        });
+
+        layeredPane.add(muteButton, Integer.valueOf(4));
     }
 
     private void setupBackground() {

@@ -28,4 +28,8 @@ public class MusicPlayer {
             clip.stop();
         }
     }
+
+    public boolean isPlaying() {
+        return clip != null && clip.isRunning();
+    }
 }
