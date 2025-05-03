@@ -198,8 +198,22 @@ public class JinnyGUI {
 
     private void processYes() {
         if (currentNode.isleaf()) {
-            JOptionPane.showMessageDialog(frame, "Yay! I guessed it right!");
-            restartGame();
+            Object[] options = {"OK!", "Exit"};
+            int choice = JOptionPane.showOptionDialog(
+                frame, 
+                "Yay! I guessed it right!\nDo you to try again?", 
+                "JinnyJa",         
+                JOptionPane.YES_NO_OPTION,   
+                JOptionPane.QUESTION_MESSAGE,
+                null,                       
+                options,                    
+                options[0] 
+            );
+            if (choice == JOptionPane.YES_OPTION) {
+                restartGame();
+            } else if (choice == JOptionPane.NO_OPTION) {
+                System.exit(0);
+            }
         } else {
             pathStack.push(currentNode);
             currentNode = currentNode.right;
@@ -229,8 +243,22 @@ public class JinnyGUI {
                 }
 
                 game.saveTreeToFile(game.getRoot(), "assets/data/questions.txt");
-                JOptionPane.showMessageDialog(frame, "Thanks! I learned something new!");
-                restartGame();
+                Object[] options = {"OK!", "Exit"};
+                int choice = JOptionPane.showOptionDialog(
+                    frame, 
+                    "Thanks! I learned something new!\nDo you to try again?", 
+                    "JinnyJa",         
+                    JOptionPane.YES_NO_OPTION,   
+                    JOptionPane.QUESTION_MESSAGE,
+                    null,                       
+                    options,                    
+                    options[0] 
+                );
+                if (choice == JOptionPane.YES_OPTION) {
+                    restartGame();
+                } else if (choice == JOptionPane.NO_OPTION) {
+                    System.exit(0);
+                }
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
