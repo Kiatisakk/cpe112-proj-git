@@ -18,7 +18,9 @@ Q:Is this person male?
           A:T-Vera 1043
         A:Ani 1036
       Q:Is this person left-handed?
-        A:Yok 1038
+        Q:Does this person have braces?
+          A:Yok 1038
+          A:Nano 1065
         A:Fuse 1078
   Q:Is this person from middle region?
     Q:Is this person wear glasses?
