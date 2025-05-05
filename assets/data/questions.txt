@@ -72,7 +72,9 @@ Q:Is this person male?
             A:Win 1051
             A:Max 1067
         Q:Is this person go to LorDor on their 1st year university?
-          A:Prince 1089
+          Q:Is this person start with code 67?
+            A:Prince 1089
+            A:Champ 1023
           Q:Is this person live in a dorm?
             A:V 1057
             A:Ball 1050
