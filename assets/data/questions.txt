@@ -65,7 +65,9 @@ Q:Is this person male?
             A:Fin 1012
             Q:Was this person studied at SCIUS?
               Q: Is this person in an Math Honor class?
-                A:Fame 1005
+                Q:Is this person of foreign descent?  
+                  A:Fame 1005
+                  A:Ben 1031
                 A:Mac 1039
               A:T-Major 1019
           Q:Is this person drive their car to the university?
@@ -74,7 +76,9 @@ Q:Is this person male?
         Q:Is this person go to LorDor on their 1st year university?
           Q:Is this person start with code 67?
             A:Prince 1089
-            A:Champ 1023
+            Q:Is this person wearing a watch?
+              A:Jeff 1004
+              A:Champ 1023
           Q:Is this person live in a dorm?
             A:V 1057
             A:Ball 1050
